@@ -30,7 +30,16 @@ An optional simulation tool is provided for ease of validation - the tool genera
 # Outputs
 Outputs are returned in the following json format:
 ```
-{}
+{
+	"status": "<string - 'success'",
+	"status_svc": "<string - 'ok'>",
+	"statusMessage_svc": "<string>",
+	"lat": <double - latitude [decimal degrees]>,
+	"lon": <double - longitude [decimal degrees]>,
+	"elp_long": <double - [metres]>,
+	"elp_short": <double - [metres]>,
+	"elp_rot": <double - [radians]>
+}
 ```
 # Detailed Guide
 For more detailed instructions see the userguide.md
