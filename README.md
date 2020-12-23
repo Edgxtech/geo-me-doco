@@ -32,3 +32,5 @@ Outputs are returned in the following json format:
 ```
 {}
 ```
+# Detailed Guide
+For more detailed instructions see the userguide.md
