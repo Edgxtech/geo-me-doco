@@ -28,7 +28,7 @@ Inputs are provided in the following json format:
 An optional simulation tool is provided for ease of validation - the tool generates a set of observations in the required format for any arbitrary geometry of platforms/targets and landmarks/assets. See: https://github.com/tgotech/geo_me_simulator
   
 # Outputs
-Outputs are provided in the following json format:
+Outputs are returned in the following json format:
 ```
 {}
 ```
