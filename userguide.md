@@ -32,6 +32,15 @@ SingularityNET Geo-me User Interface can receive a link to a valid json url, or 
 # Outputs
 Outputs are returned in the following json format:
 ```
-{}
+{
+	"status": "<string - 'success'",
+	"status_svc": "<string - 'ok'>",
+	"statusMessage_svc": "<string>",
+	"lat": <double - latitude [decimal degrees]>,
+	"lon": <double - longitude [decimal degrees]>,
+	"elp_long": <double - [metres]>,
+	"elp_short": <double - [metres]>,
+	"elp_rot": <double - [radians]>
+}
 ```
 SingularityNET Geo-me User Interface produces a text based json output containing the geolocation result, and if the request included kml generation, a link to download or view the kml in Google Earth.
