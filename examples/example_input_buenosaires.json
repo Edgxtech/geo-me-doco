@@ -1,7 +1,6 @@
 {
     "observation": [
         {
-            "targetId": "TEST_TARGET_B",
             "assetId": "A",
             "meas": 16128.673865570934,
             "lon": -58.25,
@@ -10,7 +9,6 @@
             "lat": -34.7
         },
         {
-            "targetId": "TEST_TARGET_B",
             "assetId": "A",
             "meas": 2.4528110474551976,
             "lon": -58.25,
@@ -19,7 +17,6 @@
             "lat": -34.7
         },
         {
-            "targetId": "TEST_TARGET_B",
             "assetId": "B",
             "meas": 16304.34841556142,
             "lon": -58.4,
@@ -28,7 +25,6 @@
             "lat": -34.75
         },
         {
-            "targetId": "TEST_TARGET_B",
             "assetId": "B",
             "meas": 1.5159339436750416,
             "lon": -58.4,
@@ -37,7 +33,6 @@
             "lat": -34.75
         },
         {
-            "targetId": "TEST_TARGET_B",
             "assetId": "C",
             "meas": 12371.423132573951,
             "lon": -58.5,
@@ -46,7 +41,6 @@
             "lat": -34.55
         },
         {
-            "targetId": "TEST_TARGET_B",
             "assetId": "C",
             "meas": 5.819104824349087,
             "lon": -58.5,
@@ -55,7 +49,6 @@
             "lat": -34.55
         },
         {
-            "targetId": "TEST_TARGET_B",
             "assetId": "D",
             "meas": 13725.735059052837,
             "lon": -58.3,
@@ -64,7 +57,6 @@
             "lat": -34.5
         },
         {
-            "targetId": "TEST_TARGET_B",
             "assetId": "D",
             "meas": 4.177351453785275,
             "lon": -58.3,
@@ -75,6 +67,6 @@
     ],
     "target": {
         "name": "TEST_TARGET_NAME",
-        "id": "TEST_TARGET_B"
+        "id": "TEST_TARGET_A"
     }
 }
