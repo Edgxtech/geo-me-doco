@@ -1,16 +1,72 @@
 {
-  "assets": [
-    {"id": "A","provide_aoa": true,"provide_range": true, "current_loc": [-17.2, 179.0]},
-    {"id": "B","provide_aoa": true,"provide_range": true, "current_loc": [-17.6, 178.9]},
-    {"id": "C","provide_aoa": true,"provide_range": true, "current_loc": [-17.3, 179.4]},
-    {"id": "D","provide_aoa": true,"provide_range": true, "current_loc": [-17.5, 179.3]}
-  ],
-  "target":{
-    "id":"TEST_TARGET_A",
-    "name":"TEST_TARGET_NAME",
-    "true_lat":-17.4624892,
-    "true_lon":179.2583049
-  },
-  "range_rand_factor": 200.0,
-  "aoa_rand_factor": 0.25
+    "observation": [
+        {
+            "assetId": "A",
+            "meas": 39965.80528848948,
+            "lon": 179,
+            "id": -2313160506492046660,
+            "type": "range",
+            "lat": -17.2
+        },
+        {
+            "assetId": "A",
+            "meas": 5.352636228251427,
+            "lon": 179,
+            "id": -7314199412796604176,
+            "type": "aoa",
+            "lat": -17.2
+        },
+        {
+            "assetId": "B",
+            "meas": 41016.027728186986,
+            "lon": 178.9,
+            "id": -3231595388813372747,
+            "type": "range",
+            "lat": -17.6
+        },
+        {
+            "assetId": "B",
+            "meas": 0.44152948931918623,
+            "lon": 178.9,
+            "id": 9093466879600803283,
+            "type": "aoa",
+            "lat": -17.6
+        },
+        {
+            "assetId": "C",
+            "meas": 23520.935111629195,
+            "lon": 179.4,
+            "id": 6481600633676611884,
+            "type": "range",
+            "lat": -17.3
+        },
+        {
+            "assetId": "C",
+            "meas": 3.893443702852172,
+            "lon": 179.4,
+            "id": 6971676967357592480,
+            "type": "aoa",
+            "lat": -17.3
+        },
+        {
+            "assetId": "D",
+            "meas": 6067.116526469505,
+            "lon": 179.3,
+            "id": -2101123558330962166,
+            "type": "range",
+            "lat": -17.5
+        },
+        {
+            "assetId": "D",
+            "meas": 2.3147546613626435,
+            "lon": 179.3,
+            "id": 7975694364550662642,
+            "type": "aoa",
+            "lat": -17.5
+        }
+    ],
+    "target": {
+        "name": "TEST_TARGET_NAME",
+        "id": "TEST_TARGET_A"
+    }
 }
