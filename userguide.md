@@ -9,7 +9,6 @@ Inputs are provided in the following json format:
 {
     "observation": [
         {
-            "targetId": "<string>",
             "assetId": "<string>",
             "meas": <double - range in [metres] or angle in [radians] according to the type>,          
             "id": <int>,
