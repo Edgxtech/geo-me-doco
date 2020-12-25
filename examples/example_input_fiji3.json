@@ -260,5 +260,6 @@
     "target": {
         "name": "TEST_TARGET_NAME",
         "id": "TEST_TARGET_A"
-    }
+    },
+    "provide_kml_out": true
 }
