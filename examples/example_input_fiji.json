@@ -1,7 +1,6 @@
 {
     "observation": [
         {
-            "targetId": "TEST_TARGET_A",
             "assetId": "A",
             "meas": 39987.751441977234,
             "lon": 179,
@@ -10,7 +9,6 @@
             "lat": -17.2
         },
         {
-            "targetId": "TEST_TARGET_A",
             "assetId": "A",
             "meas": 5.425902032605077,
             "lon": 179,
@@ -19,7 +17,6 @@
             "lat": -17.2
         },
         {
-            "targetId": "TEST_TARGET_A",
             "assetId": "B",
             "meas": 40982.646972883864,
             "lon": 178.9,
@@ -28,7 +25,6 @@
             "lat": -17.6
         },
         {
-            "targetId": "TEST_TARGET_A",
             "assetId": "B",
             "meas": 0.35079141473475933,
             "lon": 178.9,
@@ -37,7 +33,6 @@
             "lat": -17.6
         },
         {
-            "targetId": "TEST_TARGET_A",
             "assetId": "C",
             "meas": 23465.87183244228,
             "lon": 179.4,
@@ -46,7 +41,6 @@
             "lat": -17.3
         },
         {
-            "targetId": "TEST_TARGET_A",
             "assetId": "C",
             "meas": 4.034270808703356,
             "lon": 179.4,
@@ -55,7 +49,6 @@
             "lat": -17.3
         },
         {
-            "targetId": "TEST_TARGET_A",
             "assetId": "D",
             "meas": 6055.573973537001,
             "lon": 179.3,
@@ -64,7 +57,6 @@
             "lat": -17.5
         },
         {
-            "targetId": "TEST_TARGET_A",
             "assetId": "D",
             "meas": 2.373359714383015,
             "lon": 179.3,
