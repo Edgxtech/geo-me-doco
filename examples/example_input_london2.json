@@ -1,0 +1,32 @@
+{
+    "observation": [
+        {
+            "assetId": "A",
+            "meas": 13104.492414014245,
+            "lon": -0.05,
+            "id": -963888180469667687,
+            "type": "range",
+            "lat": 51.4
+        },
+        {
+            "assetId": "B",
+            "meas": 6.2766985986325095,
+            "lon": 0.05,
+            "id": 6301759038198382751,
+            "type": "aoa",
+            "lat": 51.6
+        },
+        {
+            "assetId": "C",
+            "meas": 24033.13917690716,
+            "lon": -0.2,
+            "id": -261305099565578510,
+            "type": "range",
+            "lat": 51.3
+        }
+    ],
+    "target": {
+        "name": "TEST_TARGET_NAME",
+        "id": "TEST_TARGET_A"
+    }
+}
