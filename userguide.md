@@ -21,7 +21,8 @@ Inputs are provided in the following json format:
     "target": {
         "name": "<string>",
         "id": "<string>"
-    }
+    },
+    "provide_kml_out": <boolean, optional, default: false>
 }
 ```
 An optional simulation tool is provided for ease of validation - the tool generates a set of observations in the required format for any arbitrary geometry of platforms/targets and landmarks/assets. See: https://github.com/tgotech/geo_me_simulator
@@ -39,7 +40,8 @@ Outputs are returned in the following json format:
 	"lon": <double - longitude [decimal degrees]>,
 	"elp_long": <double - [metres]>,
 	"elp_short": <double - [metres]>,
-	"elp_rot": <double - [radians]>
+	"elp_rot": <double - [radians]>,
+	"kml_out": <string>
 }
 ```
-SingularityNET Geo-me User Interface produces a text based json output containing the geolocation result, and if the request included kml generation, a link to download or view the kml in Google Earth.
+SingularityNET Geo-me User Interface produces a text based json output containing the geolocation result, and if the request included kml generation, a link to download or the kml for viewing in external geospatial interface systems.
