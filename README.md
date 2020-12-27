@@ -21,7 +21,8 @@ Inputs are provided in the following json format:
     "target": {
         "name": "<string>",
         "id": "<string>"
-    }
+    },
+    "provide_kml_out": <boolean, optional, default: false>
 }
 ```
 An optional simulation tool is provided for ease of validation - the tool generates a set of observations in the required format for any arbitrary geometry of platforms/targets and landmarks/assets. See: https://github.com/tgotech/geo_me_simulator
@@ -30,14 +31,15 @@ An optional simulation tool is provided for ease of validation - the tool genera
 Outputs are returned in the following json format:
 ```
 {
-	"status": "<string - 'success'",
-	"status_svc": "<string - 'ok'>",
-	"statusMessage_svc": "<string>",
 	"lat": <double - latitude [decimal degrees]>,
 	"lon": <double - longitude [decimal degrees]>,
 	"elp_long": <double - [metres]>,
 	"elp_short": <double - [metres]>,
-	"elp_rot": <double - [radians]>
+	"elp_rot": <double - [radians]>,
+	"residual": <double>
+	"status_svc": "<string - 'ok'>",
+	"statusMessage_svc": "<string, returned only if status is not 'ok'>",
+	"kml_out": <string>
 }
 ```
 # Detailed Guide
