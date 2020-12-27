@@ -69,5 +69,5 @@
         "name": "TEST_TARGET_NAME",
         "id": "TEST_TARGET_A"
     },
-    "provide-kml_out": true
+    "provide_kml_out": true
 }
