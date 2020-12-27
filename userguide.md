@@ -33,14 +33,14 @@ SingularityNET Geo-me User Interface can receive a link to a valid json url, or 
 Outputs are returned in the following json format:
 ```
 {
-	"status": "<string - 'success'",
-	"status_svc": "<string - 'ok'>",
-	"statusMessage_svc": "<string>",
 	"lat": <double - latitude [decimal degrees]>,
 	"lon": <double - longitude [decimal degrees]>,
 	"elp_long": <double - [metres]>,
 	"elp_short": <double - [metres]>,
 	"elp_rot": <double - [radians]>,
+	"residual": <double>
+	"status_svc": "<string - 'ok'>",
+	"statusMessage_svc": "<string, returned only if status is not 'ok'>",
 	"kml_out": <string>
 }
 ```
