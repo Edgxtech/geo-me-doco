@@ -47,6 +47,7 @@ Outputs are returned in the following json format:
 }
 ```
 -'status_svc' may produce a 'hung' status where the provided observations do not enable the system to converge on a estimate, the observations are likely to contradict each other and the result is likely to be innacurate or invalid.
+
 -'kml_out' is provided as an example to quickly inspect and interpret the results as a map layer in an external geospatial interface system. The format and style of the map layer are non-configurable, however a custom layer can be produced by the client using the input data (observations & descriptions) and output data (location estimation & CEP parameters).
 
 SingularityNET Geo-me User Interface produces a text based json output containing the geolocation result, and if the request included kml generation, a link to download or the kml for viewing in external geospatial interface systems.
