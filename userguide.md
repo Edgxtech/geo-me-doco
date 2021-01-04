@@ -45,3 +45,6 @@ Outputs are returned in the following json format:
 }
 ```
 SingularityNET Geo-me User Interface produces a text based json output containing the geolocation result, and if the request included kml generation, a link to download or the kml for viewing in external geospatial interface systems.
+
+# Support
+email: support@tgo.tech
