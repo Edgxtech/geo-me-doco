@@ -40,7 +40,7 @@ Outputs are returned in the following json format:
 	"elp_long": <double - [metres], ellipse long axis>,
 	"elp_short": <double - [metres], ellipse short axis>,
 	"elp_rot": <double - [radians]>, ellipse rotation,
-	"residual": <double>
+	"residual": <double>,
 	"status_svc": "<string - 'ok' or 'hung'>",
 	"statusMessage_svc": "<string, returned only if status is not 'ok'>",
 	"kml_out": <string>
